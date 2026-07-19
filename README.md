@@ -1,24 +1,23 @@
-````markdown
-# Number Guessing Game
+# 🎯 Number Guessing Game
 
-A simple command-line number guessing game built with Rust. The program generates a random number between 1 and 100, accepts user input, validates the input, and provides hints until the correct number is guessed.
+A simple command-line Number Guessing Game built with Rust. The program generates a random number between 1 and 100. The player keeps guessing until the correct number is found, while receiving hints after each guess.
 
-## Features
+## ✨ Features
 
-- Random number generation using the `rand` crate
-- User input through the terminal
-- Input validation with error handling
-- Hints for higher or lower guesses
-- Infinite game loop until the correct guess is entered
-- Clean and beginner-friendly Rust implementation
+- Generate a random number between 1 and 100
+- Read user input from the terminal
+- Validate user input
+- Display hints for higher or lower guesses
+- Continue until the correct number is guessed
+- Beginner-friendly Rust implementation
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Rust
 - Cargo
 - rand crate
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Clone the Repository
 
@@ -29,7 +28,7 @@ git clone https://github.com/sriman1957/Rust-Projects.git
 ### Navigate to the Project
 
 ```bash
-cd Rust-Projects/number_guessing_game
+cd Rust-Projects
 ```
 
 ### Run the Project
@@ -38,7 +37,7 @@ cd Rust-Projects/number_guessing_game
 cargo run
 ```
 
-## Example Output
+## 📷 Example Output
 
 ```text
 Number Guessing Game
@@ -56,7 +55,7 @@ Please enter your guess:
 Congratulations! You guessed the correct number.
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 number_guessing_game/
@@ -68,29 +67,29 @@ number_guessing_game/
 └── README.md
 ```
 
-## Concepts Practiced
+## 📚 Concepts Practiced
 
 - Variables and mutability
-- Data types
+- Primitive data types
 - Loops
 - User input
 - String parsing
 - Pattern matching with `match`
 - Error handling using `Result`
-- Random number generation
-- Value comparison using `Ordering`
+- Random number generation using the `rand` crate
+- Comparing values using `Ordering`
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- Limit the number of attempts
 - Add difficulty levels
-- Allow replay without restarting the program
-- Track the number of attempts
-- Display a high score
+- Limit the number of attempts
+- Keep track of the number of guesses
+- Allow players to restart the game without exiting
+- Display the best score
 - Add colored terminal output
 
-## Author
+## 👨‍💻 Author
 
 **Srimannarayana Kodamasimham**
-```
-````
+
+GitHub: https://github.com/sriman1957
